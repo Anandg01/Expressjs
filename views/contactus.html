@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+<style>
+    body{
+    padding: 0px;
+    margin: 0px;   
+    font-family: sans-serif;
+}
+
+.user-form{
+width: 20rem;
+max-width: 90%;
+margin: auto;
+}
+
+.form_control{
+margin: 1rem 0rem;
+}
+
+
+.form_control label,
+.form_control input{
+display: block;
+}
+.form_control input{
+border: 1px solid rgb(192, 68, 68);
+font: inherit;
+border-radius: 4px;
+height: 20px;
+}
+button {
+font: inherit;
+border: 1px solid #a73b3b;
+width: 8rem;
+margin: 7px 27px;
+border-radius: 0.5rem;
+background: #f134da;
+}
+
+</style>      
+</head>
+<body>
+   
+ <div>
+    <form class="user-form" action="/success" method="post">
+       <div class="form_control">
+      <label for="username">Name</label>
+        <input type="text" id="username">
+        <label for="emailid">Email-Id </label>
+        <input type="text" id="emailid">
+        <button type="submit">Send</button>
+       </div>
+    </form>
+</div>
+
+</body>
+</html>
